@@ -1,0 +1,10 @@
+federation_version: =2.3.2 #Change this if you want to test against a different version of the Apollo Federation specification
+subgraphs:
+  graph-a:
+    routing_url: http://localhost:4000/graphql
+    schema:
+      file: ./subgraph-a.graphql
+  graph-b:
+    routing_url: http://localhost:4001/graphql
+    schema:
+      file: ./subgraph-b.graphql
