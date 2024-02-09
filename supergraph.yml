@@ -5,6 +5,6 @@ subgraphs:
     schema:
       file: ./subgraph-a.graphql
   graph-b:
-    routing_url: http://localhost:4001/graphql
+    routing_url: http://localhost:4003/graphql
     schema:
       file: ./subgraph-b.graphql
